@@ -1,14 +1,13 @@
 const {StyleSheet} = require('react-native');
 
 const styles = StyleSheet.create({
-  title: {
-    fontSize: 32,
-    color: '#4681A3',
-    fontWeight: 'bold',
-  },
   container: {
-    paddingLeft: 32,
+    flex: 1,
+  },
+  image: {
+    width: '100%',
+    height: 400,
+    borderRadius: 20,
   },
 });
-
 export default styles;
